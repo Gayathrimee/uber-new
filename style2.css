@@ -1,0 +1,361 @@
+@media screen and (max-width:810px){
+    
+ body,html{
+    overflow-x: hidden;
+    box-sizing: border-box;
+} 
+.background{
+    display: none;
+}    
+header{
+    background: url("images/bg-image-d8ceaf24a3164759.webp");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+.my-user-image{
+    display: block;
+}
+.log{
+    display: none;
+}  
+.in-nav{
+    max-width: 810px;
+    min-width: 0;
+    height: 48px;
+    padding: 0 16px;
+}
+.nav-1{
+    margin: 0;
+    margin-right: 10px;
+    margin-left: -6px;
+    height: 36px;
+    width: 36px;
+    margin-top: 3px;
+}
+.nav-1 button{
+    height: 36px;
+    width: 36px;
+}
+.nav-2{
+    margin-inline: 0;
+}
+.btns{
+    margin: 0;
+}
+.btns a{
+    padding: 0;
+    box-shadow:0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+.user_image{
+    margin-right:12px;
+    background: #ffffff;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+.btns .sign{
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+.center{
+    display: none;
+}
+.center2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 104px;
+    padding:0 16px;
+    box-sizing:border-box ;
+
+}
+.order h1{
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 100%;
+    margin-bottom: 24px;
+    line-height: 44px;
+    font-family:uber-bold;
+}
+.locatn{
+    height: 24px;
+    width: 24px;
+}
+.timer{
+    width: 24px;
+    height: 24px;
+    fill: #000000;
+}
+.time{
+    width: 24px;
+    height: 24px;
+    fill: #000000;
+}
+.del a{
+    padding: 8px 0;
+}
+/* .del >:first-child{
+    padding-left: 4px;
+} */
+.del1{
+    display: inline-flex;
+    padding-left: 4px;
+    box-shadow:inset 0px -1px 0px #F3F3F3;
+    height: 56px;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    /* padding: 0 150px 0 0;/ */
+    box-sizing: border-box;
+}
+.locatn{
+    margin: 12px;
+    height: 24px;
+    width: 24px;
+    fill: currentColor;
+    flex: none;
+}
+.address{
+    color: #4B4B4B;
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family:uber-text;
+    width: 100%;
+    margin-right:150px ;
+    /* max-width: 355px; */
+}
+.deliver-now{
+    background: #ffffff;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.deli-now{
+    height: 56px;
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px 0 0;
+    max-width: 100%;
+}
+.timer{
+    margin: 12px;
+    height: 24px;
+    width: 24px;
+    fill: currentColor;
+    flex: none;
+}
+.time{
+    margin-left: 4px;
+}
+.in-now{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 100%;
+}
+.now1{
+    line-height: 20px;
+    flex-grow: 1;
+    flex: 1;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    font-family: uber-medium;
+}
+.now2{
+    width: 48px;
+}
+.now2 img{
+    width: 24px;
+    height: 24px;
+    fill: none;
+    line-height: 1;
+}
+.search-here{
+    border-radius: 8px;
+    padding: 12px 16px;
+    max-height: 56px;
+    min-height: 32px;
+    font-size: 18px;
+    background: #000000;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    max-width:355px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-family: uber-medium;
+}
+.space-1{
+    height: 32px;
+}
+.main{
+    display: none;
+}
+.main2{
+    display: block;
+    padding: 16px 0 0 0;
+}
+.main2-1{
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main2-in{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main2-top{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.ub-mobile-logo{
+    height: 64px;
+    width: 64px;
+    border-radius: 15%;
+    flex-shrink: 0;
+}
+.space-betwn{
+    width: 16px;
+}
+.main2-top p{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: uber-bold;
+}
+.get-the-app{
+    text-decoration: none;
+    color: inherit;
+}
+.get-the-app button{
+    display: flex;
+    justify-content: center;
+    background: #f3f3f3;
+    border-radius: 8px;
+    padding: 12px 16px;
+    min-height: 56px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 24px;
+    width: 100%;
+    align-items: center;
+    color: #000000;
+    font-family: uber-medium;
+}
+.get-the-app .android{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.android img{
+    height: 18px;
+    width: 18px;
+    fill: currentColor;
+    flex: none;
+}
+.spacing{
+    width: 8px;
+    height: 1;
+    flex-shrink: none;
+}
+.spacer{
+    height: 48px;
+}
+.main2-2 a{
+    text-decoration: none;
+    color:inherit;
+}
+.food-images{
+    height: auto;
+    margin-bottom: 4px;
+    width: 100%;
+    aspect-ratio: auto 343 / 191;
+}
+.feed{
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: uber-bold;
+    margin: 0;
+}
+.create{
+    margin-top: 8px;
+    line-height: 20px;
+    display: block;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: uber-medium;
+    color: #000000;
+}
+.main2-2-spacer{
+    height: 36px;
+}
+.cities{
+    display: none;
+}
+.cities-near-me{
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: uber-bold;
+}
+.oklahomas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 16px 8px;
+    grid-auto-flow: column;
+}
+.oks-spacer{
+    height: 24px;
+}
+.oks a{
+    text-decoration: none;
+    color: inherit;
+}
+.oks span{
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: uber-text;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
